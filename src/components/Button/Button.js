@@ -1,0 +1,14 @@
+import React from 'react';
+import './Button.css';
+function Button({value, className, onClick}) {
+    
+        return (
+         <button className={className} onClick={onClick}>
+               {value}
+         </button>
+        
+        );
+    
+}
+ 
+export default Button;
